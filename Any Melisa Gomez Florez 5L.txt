@@ -1,0 +1,9 @@
+//Any Melisa Gomez Florez 5L
+
+const numero1 = 25;
+const numero2 = 30;
+let mayorMenor ="";
+
+mayorMenor = (numero1 > numero2) ? `${numero1} es mayor que ${numero2}` : (numero1=== numero2) ? `${numero1} es igual a ${numero2}`: `${numero2} es mayor que ${numero1}`;
+
+console.log(mayorMenor);
