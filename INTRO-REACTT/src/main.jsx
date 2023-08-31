@@ -8,6 +8,9 @@ import { Navbar } from './components/navbarComponent.jsx'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Navbar/>
-    <HolaMundo/>
+  {/*para pasar de un padre a un hijo*/}
+  
+    <HolaMundo user={{name:'Profe', lastname: 'Doe'}} id='1'/>
+    
   </React.StrictMode>,
 )
