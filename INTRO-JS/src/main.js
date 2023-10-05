@@ -99,9 +99,7 @@ for (const prod of productos){
     console.log(prod);
 }
 
-
 //arreglos y operadore spread
-
 
 const frutas = ['pera', 'manzana', 'sandia'];
 const mercados = [...frutas,...productos];
