@@ -3,7 +3,7 @@ export const invoice = {
     name: 'Pizzeria',
     client: {
         name: 'Any ',
-        lastname: 'Melisa',
+        lastname: 'Gomez',
         address: {
             country: 'Colombia',
             city: 'Bucaramanga',

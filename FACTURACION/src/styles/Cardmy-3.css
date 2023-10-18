@@ -1,0 +1,82 @@
+
+.cardmy-3{
+    border-radius: 1%;
+    border-color: white;
+
+}
+
+.card-header{
+    font-family: monospace;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;    
+}
+
+.card-body{
+    font-family: monospace;
+}
+
+.list-group-item{
+    background-color:rgb(211, 243, 253);
+    font-family: monospace;
+}
+h4{
+    font-weight: bold;
+}
+h3{
+    font-weight: bold;
+}
+.table.table-striped.table-hover th{
+    background-color:lightgrey;
+    text-align: center;   
+}
+.table.table-striped.table-hover td{
+    background-color: #f8f7f6;
+    text-align: center;   
+}
+.btn.btn-danger{
+    background-color: rgb(26, 24, 153);
+    border-color: rgb(26, 24, 153);
+}
+.btn.btn-danger:hover{
+    background-color:rgb(32, 159, 168);
+    border-color:rgb(32, 159, 168);
+    color:black;
+}
+
+.text-end{
+    font-size:3ex;
+}
+.btn.btn-secundary{
+    background-color: rgb(26, 24, 153);
+    border-color: rgb(26, 24, 153);
+    font-weight: bold;
+    color:white;
+    margin-left: 1.1%;
+}
+.btn.btn-secundary:hover{
+    background-color:rgb(54, 50, 255);
+    color: white;
+}
+
+.list-group-item.active{
+    background-color: rgb(50, 105, 255);
+    color: white;
+
+}
+
+.w-5{
+    margin-right: 5%;
+}
+
+.btn.btn-primary.m-3{
+    background-color: rgb(26, 24, 153);
+    border-color: rgb(26, 24, 153);
+    font-weight: bold;
+    color:white;
+}
+.btn.btn-primary.m-3:hover{
+    background-color:rgb(54, 50, 255);
+    color: white;
+}
+

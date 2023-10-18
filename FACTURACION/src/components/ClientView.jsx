@@ -1,15 +1,14 @@
 import PropTypes from "prop-types";
 
 export const ClientView = ({title, client}) => {
-    const { name: nameClient, lastName, address: { country, city, street, number }} = client;
 
     return (
         <>
             <h3>{title}</h3>
             <ul className="list-group">
-                <li className="list-group-item active"> {nameClient} {lastName} </li>
-                <li className="list-group-item"> {country} / {city} </li>
-                <li className="list-group-item"> {street} {number} </li>
+                <li className="list-group-item active">  {client.name} {client.lastname} </li>
+                <li className="list-group-item"> {client.address.country} / {client.address.city} </li>
+                <li className="list-group-item"> {client.address.street} {client.address.number} </li>
             </ul>        
         </>
     )

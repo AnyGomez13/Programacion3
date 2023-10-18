@@ -15,5 +15,5 @@ export const CompanyView = ({title, company}) => {
 
 CompanyView.propTypes={
     title: PropTypes.string.isRequired,
-    companny: PropTypes.object.isRequired,
+    company: PropTypes.object.isRequired,
 }
